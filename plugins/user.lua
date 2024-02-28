@@ -19,4 +19,7 @@ return {
       -- Your setup opts here
     },
   }, -- },
+  {
+    "rebelot/kanagawa.nvim",
+  },
 }
