@@ -1,5 +1,5 @@
 return {
-  plugins={
+  plugins = {
     "AstroNvim/astrocommunity",
     { import = "astrocommunity.pack.rust" },
     { import = "astrocommunity.colorscheme.kanagawa-nvim" },
@@ -22,16 +22,16 @@ return {
     {
       "NeogitOrg/neogit",
       dependencies = {
-        "nvim-lua/plenary.nvim",         -- required
-        "sindrets/diffview.nvim",        -- optional - Diff integration
+        "nvim-lua/plenary.nvim", -- required
+        "sindrets/diffview.nvim", -- optional - Diff integration
 
         -- Only one of these is needed, not both.
         "nvim-telescope/telescope.nvim", -- optional
-        "ibhagwan/fzf-lua",              -- optional
+        "ibhagwan/fzf-lua", -- optional
       },
       config = true,
     },
-    { 'echasnovski/mini.nvim', version = false },
+    { "echasnovski/mini.nvim", version = false },
   },
   -- Configure AstroNvim updates
   updater = {
@@ -52,7 +52,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "everforest",
+  colorscheme = "mellow",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
